@@ -43,6 +43,7 @@ n_order = 64
 This script works with two InputMod options. Choose the InputMod among:
 - 'ExpNF' : Experimental NearField measurement as input (check the 'source' folder for meta-data in the relative section)
 - 'ArtSG': an artificial Super-Gaussian profile as input (check the parameters in the relative 'case'-section of the following 'match')
+- 'Recon': With this InputMod the BeamFocusing object to retrieve fields is obtained from the full reconstruction procedure with Near- and FarField iamges.
 """
 # PRELIMINARY: LP4PIC beam focusing 
 # General input params for LP4PIC 
