@@ -10,7 +10,7 @@ __version__ = about['__version__']
 # with open('README.md') as f:
 # long_description = f.read()
 
-requirements = ['numpy', 'scipy', 'scikit-image','fbpic','h5py','opencv-python']
+requirements = ['numpy>=1.20,<2.0', 'scipy', 'scikit-image','fbpic','h5py','opencv-python==4.9.0.80']
 setup(
     name='lp4pic',
     version=__version__,
