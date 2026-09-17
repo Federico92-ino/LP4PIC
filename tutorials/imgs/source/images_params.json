@@ -1,0 +1,14 @@
+{
+	"F_dist": 30,
+	"FFpath": ["./imgs/source/FF_source.png"],
+	"NFpath": "./imgs/source/NF_source.png",
+	"planes_position":[0],
+	"calibFF": {
+			"dy": 0.4e-6,
+			"dx": 0.4e-6
+		   },
+	"calibNF": {
+			"dy": 0.98e-3,
+			"dx": 0.98e-3
+		   }
+}
